@@ -15,7 +15,7 @@ This project aims to deepen my understanding of how these algorithms work under 
 
 | Algorithm              | Folder                  | Notes                            |
 |------------------------|-------------------------|----------------------------------|
-| Perceptron             | `/perceptron`           | Binary classifier using SGD      |
+| Perceptron             | `/Perceptron`           | Binary classifier using SGD      |
 |                        |                         |                                  |
 |                        |                         |                                  |
 |                        |                         |                                  |
