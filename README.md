@@ -16,7 +16,7 @@ This project aims to deepen my understanding of how these algorithms work under 
 | Algorithm              | Folder                  | Notes                            |
 |------------------------|-------------------------|----------------------------------|
 | Perceptron             | `/Perceptron`           | Binary classifier using SGD      |
-|                        |                         |                                  |
+| Logistic Regression    |                         |                                  |
 |                        |                         |                                  |
 |                        |                         |                                  |
 
