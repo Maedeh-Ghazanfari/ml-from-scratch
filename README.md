@@ -17,8 +17,8 @@ This project aims to deepen my understanding of how these algorithms work under 
 |------------------------|-------------------------|----------------------------------|
 | Perceptron             | `/Perceptron`           | Binary classifier using SGD      |
 | Logistic Regression    | `/Logistic Regression`  |                                  |
-|                        |                         |                                  |
-|                        |                         |                                  |
+| Naive Bayse            | `/Naive Bayse`          |                                  |
+| Decision Tree          |`/Decision Tree`         |                                  |
 
 ---
 
@@ -36,7 +36,9 @@ This project aims to deepen my understanding of how these algorithms work under 
 
 - Python 3
 - NumPy
-- pandas (only for loading/managing data)
-- matplotlib (for plotting errors/accuracy)
+- Pandas (only for loading/managing data)
+- Matplotlib (for plotting errors/accuracy)
+- Seaborn
+
 
 
