@@ -19,7 +19,7 @@ This project aims to deepen my understanding of how these algorithms work under 
 | Logistic Regression    | `/Logistic Regression`  |                                  |
 | Naive Bayse            | `/Naive Bayse`          |                                  |
 | Decision Tree          |`/Decision Tree`         |                                  |
-
+| K-Nearest Neighbor     |`/KNN`                   |                                  |
 ---
 
 ### 🧠 Neural Networks
