@@ -11,3 +11,5 @@ Because it's derived by setting the gradient of the cost function (MSE) to zero 
 Comparing it to Gradient Descent:
 
 <img width="932" height="176" alt="image" src="https://github.com/user-attachments/assets/de5084cc-0005-420f-b782-b452f6695871" />
+
+Scaling is important in Gradient Descent.
