@@ -3,22 +3,32 @@ Decision Tree is a non parametric algorithm -> It learns structure from the data
 More flexible and can fit complex patterns, but can overfit if not controlled.
 
 
-+Advantages:
+| Advantages                                  | Disadvantages                     
+| ------------------------------------------- | --------------------------------------------------------------------------------|
+| Easy to interpret and visualize             | Prone to overfitting (complex trees memorize noise)                             |
+| Handles both categorical and numerical data | Can be unstable — small changes in data can cause big changes in tree structure |
+| No need for feature scaling                 | Greedy algorithm — finds locally optimal splits, not guaranteed global optimum  |
+| Captures non-linear relationships           |
+| Can handle missing values and outliers well |
 
-Easy to interpret and visualize
 
-Handles both categorical and numerical data
+**What is the CART algorithm?**
 
-No need for feature scaling
+CART stands for Classification and Regression Trees. It is a popular algorithm for building decision trees used for both classification and regression tasks.
 
-Captures non-linear relationships
+| Feature                      | CART                                          | Other Trees Examples                                                       |
+| ---------------------------- | --------------------------------------------- | -------------------------------------------------------------------------- |
+| Splitting style              | Binary splits only                            | Can be multiway splits (e.g., ID3, C4.5)                                   |
+| Classification impurity      | Gini impurity                                 | Often use entropy (ID3, C4.5)                                              |
+| Regression splitting         | MSE or variance reduction                     | Some methods use different criteria                                        |
+| Handles categorical features | Usually requires encoding or special handling | Some (like C4.5) handle categorical features natively with multiway splits |
+| Developed for                | Both classification & regression              | Some only classification (ID3)                                             |
 
-Can handle missing values and outliers well
 
--DisAdvantages:
+When you use libraries like scikit-learn’s DecisionTreeClassifier/Regressor, you’re using CART.
 
-Prone to overfitting (complex trees memorize noise)
 
-Can be unstable — small changes in data can cause big changes in tree structure
 
-Greedy algorithm — finds locally optimal splits, not guaranteed global optimum
+
+
+
