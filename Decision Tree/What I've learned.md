@@ -28,7 +28,9 @@ CART stands for Classification and Regression Trees. It is a popular algorithm f
 When you use libraries like scikit-learn’s DecisionTreeClassifier/Regressor, you’re using CART.
 
 
+You need to restrict the Decision Tree's freedom during training. This is called Regularization(a technique used in machine learning to prevent overfitting by discouraging overly complex models).
 
+You can at least restrict the maximum depth of the Decision Tree.
 
 
 
