@@ -14,14 +14,14 @@ Both exploding and vanishing gradients make training slow or unstable.
 
 For hidden layers -> ReLU is really good: 
 
-##### Avoids vanishing gradients:
+#### Avoids vanishing gradients:
 Unlike sigmoid or tanh, ReLU’s gradient is 1 for positive inputs, so it keeps the learning signal strong and helps deep networks train faster.
 
-###### Computationally simple and efficient:
+#### Computationally simple and efficient:
 Just a max operation (max(0, x)), which is fast to compute.
 
-###### Sparse activation:
+#### Sparse activation:
 ReLU outputs zero for all negative inputs, so many neurons don’t activate at once. This sparsity can help reduce overfitting and make the network more efficient.
 
-###### Helps with convergence:
+#### Helps with convergence:
 Empirically, networks with ReLU often converge faster and achieve better performance.
