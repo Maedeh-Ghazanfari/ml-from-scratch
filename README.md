@@ -26,7 +26,7 @@ This project aims to deepen my understanding of how these algorithms work under 
 
 | Model                  | Folder                  | Notes                            |
 |------------------------|-------------------------|----------------------------------|
-| Multilayer Percpetron  |                         |                                  |
+| Multilayer Percpetron  | */Multilayer Perceptron |                                  |
 |                        |                         |                                  |
 |                        |                         |                                  |
 
