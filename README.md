@@ -1,7 +1,7 @@
 # ml-from-scratch
 My personal implementations of machine learning algorithms from scratch for learning.
 
-# Machine Learning From Scratch 🚀
+# Machine Learning From Scratch 
 
 This repository contains my implementations of core Machine Learning algorithms from scratch using **NumPy** — without using ML libraries like scikit-learn, TensorFlow, or PyTorch.
 
@@ -9,9 +9,9 @@ This project aims to deepen my understanding of how these algorithms work under 
 
 ---
 
-## 📂 Contents
+##  Contents
 
-### ✅ Classical ML Algorithms
+###  Classical ML Algorithms
 
 | Algorithm              | Folder                  | Notes                            |
 |------------------------|-------------------------|----------------------------------|
@@ -22,7 +22,7 @@ This project aims to deepen my understanding of how these algorithms work under 
 | K-Nearest Neighbor     |`/KNN`                   |                                  |
 ---
 
-### 🧠 Neural Networks
+###  Neural Networks
 
 | Model                  | Folder                  | Notes                            |
 |------------------------|-------------------------|----------------------------------|
@@ -32,7 +32,7 @@ This project aims to deepen my understanding of how these algorithms work under 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python 3
 - NumPy
